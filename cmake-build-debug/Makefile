@@ -122,32 +122,59 @@ TPStrategy/fast:
 	$(MAKE) -f CMakeFiles\TPStrategy.dir\build.make CMakeFiles/TPStrategy.dir/build
 .PHONY : TPStrategy/fast
 
-Building.obj: Building.cpp.obj
+ConsoleController.obj: ConsoleController.cpp.obj
 
-.PHONY : Building.obj
+.PHONY : ConsoleController.obj
 
 # target to build an object file
-Building.cpp.obj:
-	$(MAKE) -f CMakeFiles\TPStrategy.dir\build.make CMakeFiles/TPStrategy.dir/Building.cpp.obj
-.PHONY : Building.cpp.obj
+ConsoleController.cpp.obj:
+	$(MAKE) -f CMakeFiles\TPStrategy.dir\build.make CMakeFiles/TPStrategy.dir/ConsoleController.cpp.obj
+.PHONY : ConsoleController.cpp.obj
 
-Building.i: Building.cpp.i
+ConsoleController.i: ConsoleController.cpp.i
 
-.PHONY : Building.i
+.PHONY : ConsoleController.i
 
 # target to preprocess a source file
-Building.cpp.i:
-	$(MAKE) -f CMakeFiles\TPStrategy.dir\build.make CMakeFiles/TPStrategy.dir/Building.cpp.i
-.PHONY : Building.cpp.i
+ConsoleController.cpp.i:
+	$(MAKE) -f CMakeFiles\TPStrategy.dir\build.make CMakeFiles/TPStrategy.dir/ConsoleController.cpp.i
+.PHONY : ConsoleController.cpp.i
 
-Building.s: Building.cpp.s
+ConsoleController.s: ConsoleController.cpp.s
 
-.PHONY : Building.s
+.PHONY : ConsoleController.s
 
 # target to generate assembly for a file
-Building.cpp.s:
-	$(MAKE) -f CMakeFiles\TPStrategy.dir\build.make CMakeFiles/TPStrategy.dir/Building.cpp.s
-.PHONY : Building.cpp.s
+ConsoleController.cpp.s:
+	$(MAKE) -f CMakeFiles\TPStrategy.dir\build.make CMakeFiles/TPStrategy.dir/ConsoleController.cpp.s
+.PHONY : ConsoleController.cpp.s
+
+Controller.obj: Controller.cpp.obj
+
+.PHONY : Controller.obj
+
+# target to build an object file
+Controller.cpp.obj:
+	$(MAKE) -f CMakeFiles\TPStrategy.dir\build.make CMakeFiles/TPStrategy.dir/Controller.cpp.obj
+.PHONY : Controller.cpp.obj
+
+Controller.i: Controller.cpp.i
+
+.PHONY : Controller.i
+
+# target to preprocess a source file
+Controller.cpp.i:
+	$(MAKE) -f CMakeFiles\TPStrategy.dir\build.make CMakeFiles/TPStrategy.dir/Controller.cpp.i
+.PHONY : Controller.cpp.i
+
+Controller.s: Controller.cpp.s
+
+.PHONY : Controller.s
+
+# target to generate assembly for a file
+Controller.cpp.s:
+	$(MAKE) -f CMakeFiles\TPStrategy.dir\build.make CMakeFiles/TPStrategy.dir/Controller.cpp.s
+.PHONY : Controller.cpp.s
 
 Entity.obj: Entity.cpp.obj
 
@@ -176,33 +203,6 @@ Entity.cpp.s:
 	$(MAKE) -f CMakeFiles\TPStrategy.dir\build.make CMakeFiles/TPStrategy.dir/Entity.cpp.s
 .PHONY : Entity.cpp.s
 
-Fortress.obj: Fortress.cpp.obj
-
-.PHONY : Fortress.obj
-
-# target to build an object file
-Fortress.cpp.obj:
-	$(MAKE) -f CMakeFiles\TPStrategy.dir\build.make CMakeFiles/TPStrategy.dir/Fortress.cpp.obj
-.PHONY : Fortress.cpp.obj
-
-Fortress.i: Fortress.cpp.i
-
-.PHONY : Fortress.i
-
-# target to preprocess a source file
-Fortress.cpp.i:
-	$(MAKE) -f CMakeFiles\TPStrategy.dir\build.make CMakeFiles/TPStrategy.dir/Fortress.cpp.i
-.PHONY : Fortress.cpp.i
-
-Fortress.s: Fortress.cpp.s
-
-.PHONY : Fortress.s
-
-# target to generate assembly for a file
-Fortress.cpp.s:
-	$(MAKE) -f CMakeFiles\TPStrategy.dir\build.make CMakeFiles/TPStrategy.dir/Fortress.cpp.s
-.PHONY : Fortress.cpp.s
-
 Game.obj: Game.cpp.obj
 
 .PHONY : Game.obj
@@ -230,32 +230,32 @@ Game.cpp.s:
 	$(MAKE) -f CMakeFiles\TPStrategy.dir\build.make CMakeFiles/TPStrategy.dir/Game.cpp.s
 .PHONY : Game.cpp.s
 
-Session.obj: Session.cpp.obj
+Server.obj: Server.cpp.obj
 
-.PHONY : Session.obj
+.PHONY : Server.obj
 
 # target to build an object file
-Session.cpp.obj:
-	$(MAKE) -f CMakeFiles\TPStrategy.dir\build.make CMakeFiles/TPStrategy.dir/Session.cpp.obj
-.PHONY : Session.cpp.obj
+Server.cpp.obj:
+	$(MAKE) -f CMakeFiles\TPStrategy.dir\build.make CMakeFiles/TPStrategy.dir/Server.cpp.obj
+.PHONY : Server.cpp.obj
 
-Session.i: Session.cpp.i
+Server.i: Server.cpp.i
 
-.PHONY : Session.i
+.PHONY : Server.i
 
 # target to preprocess a source file
-Session.cpp.i:
-	$(MAKE) -f CMakeFiles\TPStrategy.dir\build.make CMakeFiles/TPStrategy.dir/Session.cpp.i
-.PHONY : Session.cpp.i
+Server.cpp.i:
+	$(MAKE) -f CMakeFiles\TPStrategy.dir\build.make CMakeFiles/TPStrategy.dir/Server.cpp.i
+.PHONY : Server.cpp.i
 
-Session.s: Session.cpp.s
+Server.s: Server.cpp.s
 
-.PHONY : Session.s
+.PHONY : Server.s
 
 # target to generate assembly for a file
-Session.cpp.s:
-	$(MAKE) -f CMakeFiles\TPStrategy.dir\build.make CMakeFiles/TPStrategy.dir/Session.cpp.s
-.PHONY : Session.cpp.s
+Server.cpp.s:
+	$(MAKE) -f CMakeFiles\TPStrategy.dir\build.make CMakeFiles/TPStrategy.dir/Server.cpp.s
+.PHONY : Server.cpp.s
 
 Unit.obj: Unit.cpp.obj
 
@@ -311,6 +311,33 @@ UnitModule.cpp.s:
 	$(MAKE) -f CMakeFiles\TPStrategy.dir\build.make CMakeFiles/TPStrategy.dir/UnitModule.cpp.s
 .PHONY : UnitModule.cpp.s
 
+UnitStats.obj: UnitStats.cpp.obj
+
+.PHONY : UnitStats.obj
+
+# target to build an object file
+UnitStats.cpp.obj:
+	$(MAKE) -f CMakeFiles\TPStrategy.dir\build.make CMakeFiles/TPStrategy.dir/UnitStats.cpp.obj
+.PHONY : UnitStats.cpp.obj
+
+UnitStats.i: UnitStats.cpp.i
+
+.PHONY : UnitStats.i
+
+# target to preprocess a source file
+UnitStats.cpp.i:
+	$(MAKE) -f CMakeFiles\TPStrategy.dir\build.make CMakeFiles/TPStrategy.dir/UnitStats.cpp.i
+.PHONY : UnitStats.cpp.i
+
+UnitStats.s: UnitStats.cpp.s
+
+.PHONY : UnitStats.s
+
+# target to generate assembly for a file
+UnitStats.cpp.s:
+	$(MAKE) -f CMakeFiles\TPStrategy.dir\build.make CMakeFiles/TPStrategy.dir/UnitStats.cpp.s
+.PHONY : UnitStats.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -347,27 +374,30 @@ help:
 	@echo ... edit_cache
 	@echo ... TPStrategy
 	@echo ... rebuild_cache
-	@echo ... Building.obj
-	@echo ... Building.i
-	@echo ... Building.s
+	@echo ... ConsoleController.obj
+	@echo ... ConsoleController.i
+	@echo ... ConsoleController.s
+	@echo ... Controller.obj
+	@echo ... Controller.i
+	@echo ... Controller.s
 	@echo ... Entity.obj
 	@echo ... Entity.i
 	@echo ... Entity.s
-	@echo ... Fortress.obj
-	@echo ... Fortress.i
-	@echo ... Fortress.s
 	@echo ... Game.obj
 	@echo ... Game.i
 	@echo ... Game.s
-	@echo ... Session.obj
-	@echo ... Session.i
-	@echo ... Session.s
+	@echo ... Server.obj
+	@echo ... Server.i
+	@echo ... Server.s
 	@echo ... Unit.obj
 	@echo ... Unit.i
 	@echo ... Unit.s
 	@echo ... UnitModule.obj
 	@echo ... UnitModule.i
 	@echo ... UnitModule.s
+	@echo ... UnitStats.obj
+	@echo ... UnitStats.i
+	@echo ... UnitStats.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

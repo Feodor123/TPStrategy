@@ -82,49 +82,58 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Admin/CLionProjects/TPStrategy/cmake-build-debug/Building.cpp">
+		<Unit filename="C:/Users/Admin/CLionProjects/TPStrategy/ActionResult.h">
 			<Option target="TPStrategy"/>
 		</Unit>
-		<Unit filename="C:/Users/Admin/CLionProjects/TPStrategy/cmake-build-debug/Building.h">
+		<Unit filename="C:/Users/Admin/CLionProjects/TPStrategy/ConsoleController.cpp">
 			<Option target="TPStrategy"/>
 		</Unit>
-		<Unit filename="C:/Users/Admin/CLionProjects/TPStrategy/cmake-build-debug/Entity.cpp">
+		<Unit filename="C:/Users/Admin/CLionProjects/TPStrategy/ConsoleController.h">
 			<Option target="TPStrategy"/>
 		</Unit>
-		<Unit filename="C:/Users/Admin/CLionProjects/TPStrategy/cmake-build-debug/Entity.h">
+		<Unit filename="C:/Users/Admin/CLionProjects/TPStrategy/Controller.cpp">
 			<Option target="TPStrategy"/>
 		</Unit>
-		<Unit filename="C:/Users/Admin/CLionProjects/TPStrategy/cmake-build-debug/Fortress.cpp">
+		<Unit filename="C:/Users/Admin/CLionProjects/TPStrategy/Controller.h">
 			<Option target="TPStrategy"/>
 		</Unit>
-		<Unit filename="C:/Users/Admin/CLionProjects/TPStrategy/cmake-build-debug/Fortress.h">
+		<Unit filename="C:/Users/Admin/CLionProjects/TPStrategy/Entity.cpp">
 			<Option target="TPStrategy"/>
 		</Unit>
-		<Unit filename="C:/Users/Admin/CLionProjects/TPStrategy/cmake-build-debug/Game.cpp">
+		<Unit filename="C:/Users/Admin/CLionProjects/TPStrategy/Entity.h">
 			<Option target="TPStrategy"/>
 		</Unit>
-		<Unit filename="C:/Users/Admin/CLionProjects/TPStrategy/cmake-build-debug/Game.h">
+		<Unit filename="C:/Users/Admin/CLionProjects/TPStrategy/Game.cpp">
 			<Option target="TPStrategy"/>
 		</Unit>
-		<Unit filename="C:/Users/Admin/CLionProjects/TPStrategy/cmake-build-debug/Session.cpp">
+		<Unit filename="C:/Users/Admin/CLionProjects/TPStrategy/Game.h">
 			<Option target="TPStrategy"/>
 		</Unit>
-		<Unit filename="C:/Users/Admin/CLionProjects/TPStrategy/cmake-build-debug/Session.h">
+		<Unit filename="C:/Users/Admin/CLionProjects/TPStrategy/Server.cpp">
 			<Option target="TPStrategy"/>
 		</Unit>
-		<Unit filename="C:/Users/Admin/CLionProjects/TPStrategy/cmake-build-debug/Unit.cpp">
+		<Unit filename="C:/Users/Admin/CLionProjects/TPStrategy/Server.h">
 			<Option target="TPStrategy"/>
 		</Unit>
-		<Unit filename="C:/Users/Admin/CLionProjects/TPStrategy/cmake-build-debug/Unit.h">
+		<Unit filename="C:/Users/Admin/CLionProjects/TPStrategy/StatType.h">
 			<Option target="TPStrategy"/>
 		</Unit>
-		<Unit filename="C:/Users/Admin/CLionProjects/TPStrategy/cmake-build-debug/UnitModule.cpp">
+		<Unit filename="C:/Users/Admin/CLionProjects/TPStrategy/Unit.cpp">
 			<Option target="TPStrategy"/>
 		</Unit>
-		<Unit filename="C:/Users/Admin/CLionProjects/TPStrategy/cmake-build-debug/UnitModule.h">
+		<Unit filename="C:/Users/Admin/CLionProjects/TPStrategy/Unit.h">
 			<Option target="TPStrategy"/>
 		</Unit>
-		<Unit filename="C:/Users/Admin/CLionProjects/TPStrategy/cmake-build-debug/UnitModuleType.h">
+		<Unit filename="C:/Users/Admin/CLionProjects/TPStrategy/UnitModule.cpp">
+			<Option target="TPStrategy"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/TPStrategy/UnitModule.h">
+			<Option target="TPStrategy"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/TPStrategy/UnitStats.cpp">
+			<Option target="TPStrategy"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/TPStrategy/UnitStats.h">
 			<Option target="TPStrategy"/>
 		</Unit>
 		<Unit filename="C:/Users/Admin/CLionProjects/TPStrategy/main.cpp">

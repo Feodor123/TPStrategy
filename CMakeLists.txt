@@ -3,4 +3,6 @@ project(TPStrategy)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(TPStrategy main.cpp cmake-build-debug/Game.cpp cmake-build-debug/Game.h cmake-build-debug/Session.cpp cmake-build-debug/Session.h cmake-build-debug/Entity.cpp cmake-build-debug/Entity.h cmake-build-debug/Unit.cpp cmake-build-debug/Unit.h cmake-build-debug/Building.cpp cmake-build-debug/Building.h cmake-build-debug/Fortress.cpp cmake-build-debug/Fortress.h cmake-build-debug/UnitModule.cpp cmake-build-debug/UnitModule.h cmake-build-debug/UnitModuleType.h)
+add_executable(TPStrategy main.cpp Game.cpp Game.h Entity.cpp Entity.h Unit.cpp Unit.h UnitModule.cpp UnitModule.h Server.cpp Server.h Controller.cpp Controller.h ActionResult.h StatType.h UnitStats.cpp UnitStats.h ConsoleController.cpp ConsoleController.h)
+
+set(CMAKE_EXE_LINKER_FLAGS "-static")
