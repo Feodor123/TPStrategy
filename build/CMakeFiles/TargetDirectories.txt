@@ -1,0 +1,3 @@
+C:/Users/Admin/CLionProjects/TPStrategy/build/CMakeFiles/TPStrategy.dir
+C:/Users/Admin/CLionProjects/TPStrategy/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Admin/CLionProjects/TPStrategy/build/CMakeFiles/ZERO_CHECK.dir

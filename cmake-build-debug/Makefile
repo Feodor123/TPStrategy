@@ -122,6 +122,33 @@ TPStrategy/fast:
 	$(MAKE) -f CMakeFiles\TPStrategy.dir\build.make CMakeFiles/TPStrategy.dir/build
 .PHONY : TPStrategy/fast
 
+ConfigLoader.obj: ConfigLoader.cpp.obj
+
+.PHONY : ConfigLoader.obj
+
+# target to build an object file
+ConfigLoader.cpp.obj:
+	$(MAKE) -f CMakeFiles\TPStrategy.dir\build.make CMakeFiles/TPStrategy.dir/ConfigLoader.cpp.obj
+.PHONY : ConfigLoader.cpp.obj
+
+ConfigLoader.i: ConfigLoader.cpp.i
+
+.PHONY : ConfigLoader.i
+
+# target to preprocess a source file
+ConfigLoader.cpp.i:
+	$(MAKE) -f CMakeFiles\TPStrategy.dir\build.make CMakeFiles/TPStrategy.dir/ConfigLoader.cpp.i
+.PHONY : ConfigLoader.cpp.i
+
+ConfigLoader.s: ConfigLoader.cpp.s
+
+.PHONY : ConfigLoader.s
+
+# target to generate assembly for a file
+ConfigLoader.cpp.s:
+	$(MAKE) -f CMakeFiles\TPStrategy.dir\build.make CMakeFiles/TPStrategy.dir/ConfigLoader.cpp.s
+.PHONY : ConfigLoader.cpp.s
+
 ConsoleController.obj: ConsoleController.cpp.obj
 
 .PHONY : ConsoleController.obj
@@ -148,33 +175,6 @@ ConsoleController.s: ConsoleController.cpp.s
 ConsoleController.cpp.s:
 	$(MAKE) -f CMakeFiles\TPStrategy.dir\build.make CMakeFiles/TPStrategy.dir/ConsoleController.cpp.s
 .PHONY : ConsoleController.cpp.s
-
-Controller.obj: Controller.cpp.obj
-
-.PHONY : Controller.obj
-
-# target to build an object file
-Controller.cpp.obj:
-	$(MAKE) -f CMakeFiles\TPStrategy.dir\build.make CMakeFiles/TPStrategy.dir/Controller.cpp.obj
-.PHONY : Controller.cpp.obj
-
-Controller.i: Controller.cpp.i
-
-.PHONY : Controller.i
-
-# target to preprocess a source file
-Controller.cpp.i:
-	$(MAKE) -f CMakeFiles\TPStrategy.dir\build.make CMakeFiles/TPStrategy.dir/Controller.cpp.i
-.PHONY : Controller.cpp.i
-
-Controller.s: Controller.cpp.s
-
-.PHONY : Controller.s
-
-# target to generate assembly for a file
-Controller.cpp.s:
-	$(MAKE) -f CMakeFiles\TPStrategy.dir\build.make CMakeFiles/TPStrategy.dir/Controller.cpp.s
-.PHONY : Controller.cpp.s
 
 Entity.obj: Entity.cpp.obj
 
@@ -311,6 +311,33 @@ UnitModule.cpp.s:
 	$(MAKE) -f CMakeFiles\TPStrategy.dir\build.make CMakeFiles/TPStrategy.dir/UnitModule.cpp.s
 .PHONY : UnitModule.cpp.s
 
+UnitModuleStore.obj: UnitModuleStore.cpp.obj
+
+.PHONY : UnitModuleStore.obj
+
+# target to build an object file
+UnitModuleStore.cpp.obj:
+	$(MAKE) -f CMakeFiles\TPStrategy.dir\build.make CMakeFiles/TPStrategy.dir/UnitModuleStore.cpp.obj
+.PHONY : UnitModuleStore.cpp.obj
+
+UnitModuleStore.i: UnitModuleStore.cpp.i
+
+.PHONY : UnitModuleStore.i
+
+# target to preprocess a source file
+UnitModuleStore.cpp.i:
+	$(MAKE) -f CMakeFiles\TPStrategy.dir\build.make CMakeFiles/TPStrategy.dir/UnitModuleStore.cpp.i
+.PHONY : UnitModuleStore.cpp.i
+
+UnitModuleStore.s: UnitModuleStore.cpp.s
+
+.PHONY : UnitModuleStore.s
+
+# target to generate assembly for a file
+UnitModuleStore.cpp.s:
+	$(MAKE) -f CMakeFiles\TPStrategy.dir\build.make CMakeFiles/TPStrategy.dir/UnitModuleStore.cpp.s
+.PHONY : UnitModuleStore.cpp.s
+
 UnitStats.obj: UnitStats.cpp.obj
 
 .PHONY : UnitStats.obj
@@ -374,12 +401,12 @@ help:
 	@echo ... edit_cache
 	@echo ... TPStrategy
 	@echo ... rebuild_cache
+	@echo ... ConfigLoader.obj
+	@echo ... ConfigLoader.i
+	@echo ... ConfigLoader.s
 	@echo ... ConsoleController.obj
 	@echo ... ConsoleController.i
 	@echo ... ConsoleController.s
-	@echo ... Controller.obj
-	@echo ... Controller.i
-	@echo ... Controller.s
 	@echo ... Entity.obj
 	@echo ... Entity.i
 	@echo ... Entity.s
@@ -395,6 +422,9 @@ help:
 	@echo ... UnitModule.obj
 	@echo ... UnitModule.i
 	@echo ... UnitModule.s
+	@echo ... UnitModuleStore.obj
+	@echo ... UnitModuleStore.i
+	@echo ... UnitModuleStore.s
 	@echo ... UnitStats.obj
 	@echo ... UnitStats.i
 	@echo ... UnitStats.s

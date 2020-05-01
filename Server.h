@@ -9,6 +9,7 @@ class Server {
 public:
     Server(Controller& p1, Controller& p2);
 
+    //return winner number
     int Run();
 protected:
     std::vector<Controller*> controllers;

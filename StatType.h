@@ -1,7 +1,7 @@
 #ifndef TPSTRATEGY_STATTYPE_H
 #define TPSTRATEGY_STATTYPE_H
 
-enum StatType{
+enum class StatType{
     Cost,
     Speed,
     MaxHP,
@@ -12,6 +12,9 @@ enum StatType{
     CanMine,
     MineSpeed,
     MineCount,
+    Immovable,
+    Fabric,
+    PassiveIncome
 };
 
 #endif

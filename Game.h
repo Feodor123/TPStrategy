@@ -12,12 +12,13 @@ struct Player{
         this->gold = gold;
     }
     int gold;
-    void AddGold(int val){
-        gold += val;
+    void ChangeGold(int delta){
+        gold += delta;
     }
 };
 
 struct Tile{
+    Tile(int maxCount);
     std::vector<Entity*> entities;
     bool CanAdd(const Entity& e) const;
     int maxCount;
@@ -30,11 +31,16 @@ public:
     int fieldLength;
     int fieldWidth;
     Player players[2];
+    int baseIds[2];
 
-    Game(int length = 20, int width = 5, int startGold = 100);
+    Game(int length = 10, int width = 4, int startGold = 200);
+
+    void OnNewTurn(int playerColor);
 
     //return -1 if not end; winner number else
     int End() const;
+
+    void AddEntity(Entity& e);
 
     void Kill(Entity& e);
 

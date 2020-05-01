@@ -85,13 +85,16 @@
 		<Unit filename="C:/Users/Admin/CLionProjects/TPStrategy/ActionResult.h">
 			<Option target="TPStrategy"/>
 		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/TPStrategy/ConfigLoader.cpp">
+			<Option target="TPStrategy"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/TPStrategy/ConfigLoader.h">
+			<Option target="TPStrategy"/>
+		</Unit>
 		<Unit filename="C:/Users/Admin/CLionProjects/TPStrategy/ConsoleController.cpp">
 			<Option target="TPStrategy"/>
 		</Unit>
 		<Unit filename="C:/Users/Admin/CLionProjects/TPStrategy/ConsoleController.h">
-			<Option target="TPStrategy"/>
-		</Unit>
-		<Unit filename="C:/Users/Admin/CLionProjects/TPStrategy/Controller.cpp">
 			<Option target="TPStrategy"/>
 		</Unit>
 		<Unit filename="C:/Users/Admin/CLionProjects/TPStrategy/Controller.h">
@@ -128,6 +131,15 @@
 			<Option target="TPStrategy"/>
 		</Unit>
 		<Unit filename="C:/Users/Admin/CLionProjects/TPStrategy/UnitModule.h">
+			<Option target="TPStrategy"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/TPStrategy/UnitModuleStore.cpp">
+			<Option target="TPStrategy"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/TPStrategy/UnitModuleStore.h">
+			<Option target="TPStrategy"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/TPStrategy/UnitModuleType.h">
 			<Option target="TPStrategy"/>
 		</Unit>
 		<Unit filename="C:/Users/Admin/CLionProjects/TPStrategy/UnitStats.cpp">

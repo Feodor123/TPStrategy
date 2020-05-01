@@ -134,22 +134,9 @@ CMakeFiles/TPStrategy.dir/Server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TPStrategy.dir/Server.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\CLionProjects\TPStrategy\Server.cpp -o CMakeFiles\TPStrategy.dir\Server.cpp.s
 
-CMakeFiles/TPStrategy.dir/Controller.cpp.obj: CMakeFiles/TPStrategy.dir/flags.make
-CMakeFiles/TPStrategy.dir/Controller.cpp.obj: ../Controller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Admin\CLionProjects\TPStrategy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TPStrategy.dir/Controller.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TPStrategy.dir\Controller.cpp.obj -c C:\Users\Admin\CLionProjects\TPStrategy\Controller.cpp
-
-CMakeFiles/TPStrategy.dir/Controller.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TPStrategy.dir/Controller.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\CLionProjects\TPStrategy\Controller.cpp > CMakeFiles\TPStrategy.dir\Controller.cpp.i
-
-CMakeFiles/TPStrategy.dir/Controller.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TPStrategy.dir/Controller.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\CLionProjects\TPStrategy\Controller.cpp -o CMakeFiles\TPStrategy.dir\Controller.cpp.s
-
 CMakeFiles/TPStrategy.dir/UnitStats.cpp.obj: CMakeFiles/TPStrategy.dir/flags.make
 CMakeFiles/TPStrategy.dir/UnitStats.cpp.obj: ../UnitStats.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Admin\CLionProjects\TPStrategy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/TPStrategy.dir/UnitStats.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Admin\CLionProjects\TPStrategy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TPStrategy.dir/UnitStats.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TPStrategy.dir\UnitStats.cpp.obj -c C:\Users\Admin\CLionProjects\TPStrategy\UnitStats.cpp
 
 CMakeFiles/TPStrategy.dir/UnitStats.cpp.i: cmake_force
@@ -162,7 +149,7 @@ CMakeFiles/TPStrategy.dir/UnitStats.cpp.s: cmake_force
 
 CMakeFiles/TPStrategy.dir/ConsoleController.cpp.obj: CMakeFiles/TPStrategy.dir/flags.make
 CMakeFiles/TPStrategy.dir/ConsoleController.cpp.obj: ../ConsoleController.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Admin\CLionProjects\TPStrategy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/TPStrategy.dir/ConsoleController.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Admin\CLionProjects\TPStrategy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/TPStrategy.dir/ConsoleController.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TPStrategy.dir\ConsoleController.cpp.obj -c C:\Users\Admin\CLionProjects\TPStrategy\ConsoleController.cpp
 
 CMakeFiles/TPStrategy.dir/ConsoleController.cpp.i: cmake_force
@@ -173,6 +160,32 @@ CMakeFiles/TPStrategy.dir/ConsoleController.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TPStrategy.dir/ConsoleController.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\CLionProjects\TPStrategy\ConsoleController.cpp -o CMakeFiles\TPStrategy.dir\ConsoleController.cpp.s
 
+CMakeFiles/TPStrategy.dir/UnitModuleStore.cpp.obj: CMakeFiles/TPStrategy.dir/flags.make
+CMakeFiles/TPStrategy.dir/UnitModuleStore.cpp.obj: ../UnitModuleStore.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Admin\CLionProjects\TPStrategy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/TPStrategy.dir/UnitModuleStore.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TPStrategy.dir\UnitModuleStore.cpp.obj -c C:\Users\Admin\CLionProjects\TPStrategy\UnitModuleStore.cpp
+
+CMakeFiles/TPStrategy.dir/UnitModuleStore.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TPStrategy.dir/UnitModuleStore.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\CLionProjects\TPStrategy\UnitModuleStore.cpp > CMakeFiles\TPStrategy.dir\UnitModuleStore.cpp.i
+
+CMakeFiles/TPStrategy.dir/UnitModuleStore.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TPStrategy.dir/UnitModuleStore.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\CLionProjects\TPStrategy\UnitModuleStore.cpp -o CMakeFiles\TPStrategy.dir\UnitModuleStore.cpp.s
+
+CMakeFiles/TPStrategy.dir/ConfigLoader.cpp.obj: CMakeFiles/TPStrategy.dir/flags.make
+CMakeFiles/TPStrategy.dir/ConfigLoader.cpp.obj: ../ConfigLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Admin\CLionProjects\TPStrategy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/TPStrategy.dir/ConfigLoader.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TPStrategy.dir\ConfigLoader.cpp.obj -c C:\Users\Admin\CLionProjects\TPStrategy\ConfigLoader.cpp
+
+CMakeFiles/TPStrategy.dir/ConfigLoader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TPStrategy.dir/ConfigLoader.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\CLionProjects\TPStrategy\ConfigLoader.cpp > CMakeFiles\TPStrategy.dir\ConfigLoader.cpp.i
+
+CMakeFiles/TPStrategy.dir/ConfigLoader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TPStrategy.dir/ConfigLoader.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\CLionProjects\TPStrategy\ConfigLoader.cpp -o CMakeFiles\TPStrategy.dir\ConfigLoader.cpp.s
+
 # Object files for target TPStrategy
 TPStrategy_OBJECTS = \
 "CMakeFiles/TPStrategy.dir/main.cpp.obj" \
@@ -181,9 +194,10 @@ TPStrategy_OBJECTS = \
 "CMakeFiles/TPStrategy.dir/Unit.cpp.obj" \
 "CMakeFiles/TPStrategy.dir/UnitModule.cpp.obj" \
 "CMakeFiles/TPStrategy.dir/Server.cpp.obj" \
-"CMakeFiles/TPStrategy.dir/Controller.cpp.obj" \
 "CMakeFiles/TPStrategy.dir/UnitStats.cpp.obj" \
-"CMakeFiles/TPStrategy.dir/ConsoleController.cpp.obj"
+"CMakeFiles/TPStrategy.dir/ConsoleController.cpp.obj" \
+"CMakeFiles/TPStrategy.dir/UnitModuleStore.cpp.obj" \
+"CMakeFiles/TPStrategy.dir/ConfigLoader.cpp.obj"
 
 # External object files for target TPStrategy
 TPStrategy_EXTERNAL_OBJECTS =
@@ -194,14 +208,15 @@ TPStrategy.exe: CMakeFiles/TPStrategy.dir/Entity.cpp.obj
 TPStrategy.exe: CMakeFiles/TPStrategy.dir/Unit.cpp.obj
 TPStrategy.exe: CMakeFiles/TPStrategy.dir/UnitModule.cpp.obj
 TPStrategy.exe: CMakeFiles/TPStrategy.dir/Server.cpp.obj
-TPStrategy.exe: CMakeFiles/TPStrategy.dir/Controller.cpp.obj
 TPStrategy.exe: CMakeFiles/TPStrategy.dir/UnitStats.cpp.obj
 TPStrategy.exe: CMakeFiles/TPStrategy.dir/ConsoleController.cpp.obj
+TPStrategy.exe: CMakeFiles/TPStrategy.dir/UnitModuleStore.cpp.obj
+TPStrategy.exe: CMakeFiles/TPStrategy.dir/ConfigLoader.cpp.obj
 TPStrategy.exe: CMakeFiles/TPStrategy.dir/build.make
 TPStrategy.exe: CMakeFiles/TPStrategy.dir/linklibs.rsp
 TPStrategy.exe: CMakeFiles/TPStrategy.dir/objects1.rsp
 TPStrategy.exe: CMakeFiles/TPStrategy.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Admin\CLionProjects\TPStrategy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable TPStrategy.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Admin\CLionProjects\TPStrategy\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable TPStrategy.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\TPStrategy.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

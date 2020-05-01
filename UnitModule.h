@@ -5,18 +5,9 @@
 #include "unordered_set"
 #include "unordered_map"
 #include "StatType.h"
+#include "UnitModuleType.h"
 
-enum UnitModuleType{
-    Attack1,
-    Attack2,
-    Attack3,
-    Mine1,
-    Mine2,
-    Mine3,
-};
-
-class UnitModule {
-public:
+struct UnitModule {
     std::unordered_map<StatType, int> iValues;
 
     std::unordered_map<StatType, bool> bValues;
@@ -28,8 +19,6 @@ public:
     UnitModule(std::unordered_set<UnitModuleType> incompatibilities,
             std::unordered_map<StatType, int> iValues,
             std::unordered_map<StatType, bool> bValues);
-
-    static std::unordered_map<UnitModuleType, UnitModule> Templates;
 
     static bool AreCompatible(std::vector<UnitModuleType>& modules);
 };

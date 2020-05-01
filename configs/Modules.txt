@@ -1,0 +1,38 @@
+Module Attack1
+Int Damage 50
+Int Cost 50
+Bool CanAttack true
+Incomp Attack1 Attack2 Attack3
+
+Module Attack2
+Int Damage 75
+Int Cost 100
+Bool CanAttack true
+Incomp Attack1 Attack2 Attack3
+
+Module Attack3
+Int Damage 100
+Int Cost 150
+Bool CanAttack true
+Incomp Attack1 Attack2 Attack3
+
+Module Mine1
+Int MineSpeed 25
+Int Cost 50
+Bool CanMine true
+Incomp Mine1 Mine2 Mine3
+
+Module Mine2
+Int MineSpeed 50
+Int Cost 100
+Bool CanMine true
+Incomp Mine1 Mine2 Mine3
+
+Module Mine3
+Int MineSpeed 75
+Int Cost 150
+Bool CanMine true
+Incomp Mine1 Mine2 Mine3
+
+Module Building
+Bool Immovable true

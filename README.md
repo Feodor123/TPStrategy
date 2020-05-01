@@ -1,9 +1,7 @@
-# TPStrategy: May creation bring destruction
-### To launch:
-**cmake + make + run main**
+# TPStrategy: "May creation bring destruction" or "It Just Works"
 
-### Ход написания/запланированное время
-- Документация: ± готово
-- Игровая логика: не готово (к 17/04)
-- Серверная логика: не готово (к 20/04)
-- Консольный движок: не готово (к 30/04)
+### Platform: Windows 10
+### To launch:
+**cmake + make + run TPStrategy.exe.**
+
+(TPStrategy must have configs directory in one-level-higher directory)

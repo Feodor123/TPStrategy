@@ -8,14 +8,11 @@
 #include "ActionResult.h"
 #include "UnitStats.h"
 
-class Unit final : public Entity{
+class Unit : public Entity{
 public:
-    int movePoints;
-    int attackPoints;
-    int minePoints;
-    UnitStats stats;
+    Unit(Game& game, int color, int pos, std::vector<UnitModuleType>& modules);
 
-    Unit(Game& game, int hp, int color, int pos, std::vector<UnitModuleType> modules);
+    Unit(Game& game, int color, int pos, UnitStats& stats);
 
     ~Unit() override = default;
 
@@ -27,9 +24,27 @@ public:
 
     MineResult Mine();
 
+    CreateResult Create(std::vector<UnitModuleType>& modules);
+
     void SelfDestruct();
 
     static UnitStats BasicStats;
+
+    static UnitStats FortressStats;
+
+    int MovePoints(){return movePoints;}
+
+    int AttackPoints(){return attackPoints;}
+
+    int MinePoints(){return minePoints;}
+
+    const UnitStats& Stats(){return stats;}
+
+protected:
+    int movePoints;
+    int attackPoints;
+    int minePoints;
+    UnitStats stats;
 };
 
 

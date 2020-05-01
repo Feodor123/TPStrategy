@@ -1,0 +1,33 @@
+Commands:
+skip
+  Skip your turn
+
+clear
+  Clear text
+
+info <x1> <y1>
+  Return information about anything on (x1,y1)
+
+die <x1> <y1>
+  Kill your unit on (x1,y1)
+
+go <x1> <y1> <x2>
+  Move you unit from (x1,y1) to (x2,*)
+
+attack <x1> <y1> <x2> <y2>
+  By unit on (x1,y1) attack anything on (x2,y2)
+
+mine <x1> <y1>
+  Mine by unit on (x1,y1)
+
+create <x1> <y1> [module names]
+  Create unit from modules by unit on (x1,y1)
+
+Modules names:
+  atk1,atk2,atk3 - attack
+  mine1,mine2,mine3 - mine
+
+Examples:
+die 1 1 //best tactic
+skip
+create 1 1 atk1 mine2
